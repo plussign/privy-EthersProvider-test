@@ -1,0 +1,15 @@
+this bug found since @privy-io/react-auth@1.59.0
+
+1. install packages
+npm i --force
+
+2. run demo
+npm run start
+
+3. login with privy account
+
+4. click error test to see the exception
+
+5. click works test to see a transcation be made that sent self 1 gwei
+
+*** the only difference is the error test function set the maxFeePerGas & _maxPriorityFeePerGas mannually ***
